@@ -27,31 +27,29 @@
 
 最新版本可从 [Releases](https://github.com/chenyl8848/github-picture-preview/releases) 下载 `github-picture-preview.zip`，解压后按下方「安装」步骤以开发者模式加载。
 
-> 商店上架后，普通用户可直接从浏览器商店一键安装；在此之前，GitHub Release 主要用于开发者模式加载与源码分发。
-
 ## 安装
 
 ### Chrome / Edge（或其他 Chromium 内核浏览器）
 
-1. 下载或克隆本仓库到本地：
-   ```bash
-   git clone https://github.com/chenyl8848/github-picture-preview.git
-   ```
+1. 获取源码（二选一）：
+   - 从 [Releases](https://github.com/chenyl8848/github-picture-preview/releases) 下载 `github-picture-preview.zip` 并解压；
+   - 或克隆仓库：
+     ```bash
+     git clone https://github.com/chenyl8848/github-picture-preview.git
+     ```
 2. 打开 `chrome://extensions`（Edge 为 `edge://extensions`）。
 3. 打开右上角「开发者模式」开关。
 4. 点击「加载已解压的扩展程序」，选择本项目根目录。
 5. 打开任意含图片的 GitHub 页面，单击图片即可预览。
 
-> 商店发布后，也可从 Chrome 应用商店 / Edge 加载项商店一键安装（待发布）。
-
 ### Firefox
 
-1. 下载或克隆本仓库到本地。
+1. 获取源码：从 [Releases](https://github.com/chenyl8848/github-picture-preview/releases) 下载 zip 并解压，或克隆仓库。
 2. 打开 `about:debugging#/runtime/this-firefox`。
 3. 点击「临时载入附加组件」，选择本项目根目录下的 `manifest.json`。
 4. 打开任意含图片的 GitHub 页面，单击图片即可预览。
 
-> 商店发布后，也可从 Firefox 附加组件市场（AMO）安装（待发布）。
+> Firefox 仅支持「临时载入」，重启浏览器后需重新加载；如需永久安装，需用 Firefox Developer Edition / Nightly 关闭签名校验。
 
 ## 使用方法
 
