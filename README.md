@@ -23,13 +23,19 @@
 
 > 待补充截图。
 
+## 下载
+
+最新版本可从 [Releases](https://github.com/chenyl8848/github-picture-preview/releases) 下载 `github-picture-preview.zip`，解压后按下方「安装」步骤以开发者模式加载。
+
+> 商店上架后，普通用户可直接从浏览器商店一键安装；在此之前，GitHub Release 主要用于开发者模式加载与源码分发。
+
 ## 安装
 
 ### Chrome / Edge（或其他 Chromium 内核浏览器）
 
 1. 下载或克隆本仓库到本地：
    ```bash
-   git clone https://github.com/<你的用户名>/github-picture-preview.git
+   git clone https://github.com/chenyl8848/github-picture-preview.git
    ```
 2. 打开 `chrome://extensions`（Edge 为 `edge://extensions`）。
 3. 打开右上角「开发者模式」开关。
