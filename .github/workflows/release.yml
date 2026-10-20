@@ -16,7 +16,7 @@ jobs:
       - name: Package extension
         run: |
           mkdir -p dist
-          zip -r dist/github-picture-preview.zip \
+          zip -r dist/github-image-preview.zip \
             manifest.json content.js content.css icons LICENSE
 
       - name: Create GitHub Release
@@ -24,6 +24,6 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           gh release create "${{ github.ref_name }}" \
-            dist/github-picture-preview.zip \
+            dist/github-image-preview.zip \
             --generate-notes \
             --title "${{ github.ref_name }}"

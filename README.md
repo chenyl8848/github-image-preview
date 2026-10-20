@@ -25,17 +25,17 @@
 
 ## 下载
 
-最新版本可从 [Releases](https://github.com/chenyl8848/github-picture-preview/releases) 下载 `github-picture-preview.zip`，解压后按下方「安装」步骤以开发者模式加载。
+最新版本可从 [Releases](https://github.com/chenyl8848/github-image-preview/releases) 下载 `github-image-preview.zip`，解压后按下方「安装」步骤以开发者模式加载。
 
 ## 安装
 
 ### Chrome / Edge（或其他 Chromium 内核浏览器）
 
 1. 获取源码（二选一）：
-   - 从 [Releases](https://github.com/chenyl8848/github-picture-preview/releases) 下载 `github-picture-preview.zip` 并解压；
+   - 从 [Releases](https://github.com/chenyl8848/github-image-preview/releases) 下载 `github-image-preview.zip` 并解压；
    - 或克隆仓库：
      ```bash
-     git clone https://github.com/chenyl8848/github-picture-preview.git
+     git clone https://github.com/chenyl8848/github-image-preview.git
      ```
 2. 打开 `chrome://extensions`（Edge 为 `edge://extensions`）。
 3. 打开右上角「开发者模式」开关。
@@ -44,7 +44,7 @@
 
 ### Firefox
 
-1. 获取源码：从 [Releases](https://github.com/chenyl8848/github-picture-preview/releases) 下载 zip 并解压，或克隆仓库。
+1. 获取源码：从 [Releases](https://github.com/chenyl8848/github-image-preview/releases) 下载 zip 并解压，或克隆仓库。
 2. 打开 `about:debugging#/runtime/this-firefox`。
 3. 点击「临时载入附加组件」，选择本项目根目录下的 `manifest.json`。
 4. 打开任意含图片的 GitHub 页面，单击图片即可预览。
@@ -88,7 +88,7 @@
 ## 目录结构
 
 ```
-github-picture-preview/
+github-image-preview/
 ├── manifest.json      # Manifest V3 配置
 ├── content.js         # 核心逻辑：点击拦截 + 图片识别 + 灯箱交互
 ├── content.css        # 灯箱样式
