@@ -6,6 +6,8 @@
 
 在 GitHub 上查看 issue、PR、README、评论里的截图时，点击图片会跳到新标签页打开原图——打断阅读节奏，来回切换标签页体验很差。
 
+![](docs/images/img-20261022110849.png)
+
 本插件拦截 GitHub 上的图片点击，改为在当前页面弹出灯箱（lightbox）预览，随点随看、随看随关，让阅读流程不被打断。
 
 ## 功能特性
@@ -21,33 +23,40 @@
 
 ## 演示
 
-> 待补充截图。
+![](docs/images//t3ite-zfgvm.gif)
+
+![](docs/images/img-20261022110946.png)
+
+![](docs/images/img-20261022111359.png)
 
 ## 下载
 
+- 安装包下载
+
 最新版本可从 [Releases](https://github.com/chenyl8848/github-image-preview/releases) 下载 `github-image-preview.zip`，解压后按下方「安装」步骤以开发者模式加载。
+
+- 源码下载
+
+克隆或下载项目源码。
+
+```bash
+git clone https://github.com/chenyl8848/github-image-preview.git
+```
 
 ## 安装
 
 ### Chrome / Edge（或其他 Chromium 内核浏览器）
 
-1. 获取源码（二选一）：
-   - 从 [Releases](https://github.com/chenyl8848/github-image-preview/releases) 下载 `github-image-preview.zip` 并解压；
-   - 或克隆仓库：
-     ```bash
-     git clone https://github.com/chenyl8848/github-image-preview.git
-     ```
-2. 打开 `chrome://extensions`（Edge 为 `edge://extensions`）。
-3. 打开右上角「开发者模式」开关。
-4. 点击「加载已解压的扩展程序」，选择本项目根目录。
-5. 打开任意含图片的 GitHub 页面，单击图片即可预览。
+1. 打开 `chrome://extensions`（Edge 为 `edge://extensions`）。
+2. 打开右上角「开发者模式」开关。
+3. 点击「加载已解压的扩展程序」，选择本项目根目录。
+4. 打开任意含图片的 GitHub 页面，单击图片即可预览。
 
 ### Firefox
 
-1. 获取源码：从 [Releases](https://github.com/chenyl8848/github-image-preview/releases) 下载 zip 并解压，或克隆仓库。
-2. 打开 `about:debugging#/runtime/this-firefox`。
-3. 点击「临时载入附加组件」，选择本项目根目录下的 `manifest.json`。
-4. 打开任意含图片的 GitHub 页面，单击图片即可预览。
+1. 打开 `about:debugging#/runtime/this-firefox`。
+2. 点击「临时载入附加组件」，选择本项目根目录下的 `manifest.json`。
+3. 打开任意含图片的 GitHub 页面，单击图片即可预览。
 
 > Firefox 仅支持「临时载入」，重启浏览器后需重新加载；如需永久安装，需用 Firefox Developer Edition / Nightly 关闭签名校验。
 
